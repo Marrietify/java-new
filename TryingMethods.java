@@ -23,4 +23,17 @@ public class TryingMethods {
                 return "days of the week not found";
         }
     }
+    public void mathScore(int result){
+        if(result <= 0 ){
+            System.out.println("Olodo");
+        }
+        else if (result <= 20){
+            System.out.println("Fail");
+        }
+        else if (result <= 50){
+            System.out.println("Pass");
+        }
+        else {System.out.println("Excellent");
+    }
+    }
 }
