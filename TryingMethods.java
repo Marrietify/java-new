@@ -45,4 +45,14 @@ public class TryingMethods {
         }
         return sum;
     }
+    public static void evenSum(){
+       int sum = 0;
+       for (int index = 12; index < 104; index++) {
+        if (index % 2 == 0){
+            sum = sum + index;
+        }
+       }
+       System.out.println(sum);
+
+    }
 }
