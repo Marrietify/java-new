@@ -36,4 +36,13 @@ public class TryingMethods {
         else {System.out.println("Excellent");
     }
     }
+    public static int summation(){
+        int count = 0;
+        int sum = 0;
+        while(count < 1000){
+            sum = sum + count;
+            count = count + 1;
+        }
+        return sum;
+    }
 }
