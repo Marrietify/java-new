@@ -1,5 +1,12 @@
+import javax.sound.midi.Track;
+
 public class TryingMethods {
     public static void main(String[] args) {
+       System.out.println(summation()); 
+       evenSum();
+       TryingMethods t = new TryingMethods();
+       System.out.println(t.weekDay(5));
+       t.mathScore(30);
         
     }
     public String weekDay(int dayInteger) {
